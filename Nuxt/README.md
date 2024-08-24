@@ -38,10 +38,9 @@ npx nuxi module add icon
 🔗 [Document more icon](https://icones.js.org/)
 
 ```bash
-# ex
+# example
 
 <Icon name="uil:github" style="color: black" />
 
-# uil is collection name
-# before : icon name
+# name="collection name : icon name"
 ```
