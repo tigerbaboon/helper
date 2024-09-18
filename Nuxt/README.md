@@ -44,3 +44,10 @@ npx nuxi module add icon
 
 # name="collection name : icon name"
 ```
+
+## 💩 pinia
+
+```bash
+# install module
+npx nuxi@latest module add pinia
+```
