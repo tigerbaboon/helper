@@ -51,3 +51,10 @@ npx nuxi module add icon
 # install module
 npx nuxi@latest module add pinia
 ```
+
+## 💩 axios
+
+```bash
+# install axios
+npm install @nuxtjs/axios
+```
