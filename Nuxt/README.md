@@ -13,7 +13,7 @@ If you want to make tailwincss class in global
 
 1. create file css in ..
 
-    - asset
+    - assets
     - css
         - main.css
 
