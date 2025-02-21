@@ -1,12 +1,21 @@
 # Install module
 
-## 💩 tailwincss
-```bash
-# install module
-npx nuxi@latest module add tailwindcss
+## 💩 tailwincss V4
 
-# add tailwind.config.js file
-npx tailwindcss init
+1. install with `yarn add tailwindcss @tailwindcss/vite`
+
+2. config vite plugin
+```bash
+import tailwindcss from "@tailwindcss/vite";
+export default defineNuxtConfig({
+  compatibilityDate: "2024-11-01",
+  devtools: { enabled: true },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+});
 ```
 
 If you want to make tailwincss class in global
@@ -19,9 +28,7 @@ If you want to make tailwincss class in global
 
 2. add tailwind directives in main.css
     ```bash
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+    @import "tailwindcss";
     ```
 3. and in nuxt.config.ts file add path css in ..
     ```bash
