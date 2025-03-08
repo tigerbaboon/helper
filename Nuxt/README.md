@@ -60,3 +60,11 @@ npx nuxi@latest module add pinia
 ```bash
 npm install @nuxtjs/axios
 ```
+
+## 💩 sweetalert2
+
+🔗 [Document more icon](https://sweetalert2.github.io/)
+
+```bash
+yarn add sweetalert2
+```
