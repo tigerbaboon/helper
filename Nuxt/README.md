@@ -38,30 +38,25 @@ If you want to make tailwincss class in global
 ## 💩 icon
 
 ```bash
-# install module
 npx nuxi module add icon
 ```
 
 🔗 [Document more icon](https://icones.js.org/)
 
-```bash
-# example
-
-<Icon name="uil:github" style="color: black" />
-
+example:
 # name="collection name : icon name"
+```bash
+<Icon name="uil:github" style="color: black" />
 ```
 
 ## 💩 pinia
 
 ```bash
-# install module
 npx nuxi@latest module add pinia
 ```
 
 ## 💩 axios
 
 ```bash
-# install axios
 npm install @nuxtjs/axios
 ```
